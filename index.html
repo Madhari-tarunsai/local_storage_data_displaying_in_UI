@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div id="div1">
+      <form action="" id="form">
+        <div><h1>Form</h1></div>
+        <label for="name">Enter name:</label>
+        <input type="text" id="name" placeholder="saketh" /><br /><br />
+        <label for="mail">Enter email:</label>
+        <input
+          type="email"
+          id="mail"
+          placeholder="saketh@gmail.com"
+        /><br /><br />
+        <label for="phone">moblie_no:</label>
+        <input type="tel" id="phone" placeholder="8142253035" /><br /><br />
+        <label for="name">Enter feedback:</label>
+        <textarea id="text" placeholder="msndkjskd"></textarea><br /><br />
+        <label for="ratings">Ratings:</label>
+        <select name="ratings" id="ratings">
+          <option value="" disabled selected>Select a rating</option>
+          <option value="1">⭐ 1 - Poor</option>
+          <option value="2">⭐⭐ 2 - Fair</option>
+          <option value="3">⭐⭐⭐ 3 - Good</option>
+          <option value="4">⭐⭐⭐⭐ 4 - Very Good</option>
+          <option value="5">⭐⭐⭐⭐⭐ 5 - Excellent</option></select
+        ><br /><br />
+
+        <div class="button-container">
+          <button type="submit" id="btn">Submit</button>
+        </div>
+      </form>
+      
+    </div>
+    
+    
+    <script src="./script.js"></script>
+  </body>
+</html>

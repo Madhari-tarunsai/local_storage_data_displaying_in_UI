@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  left: 0;
+  height: 100vh;
+  background-color:lightslategrey;
+}
+#form h1{
+    text-align: center;
+}
+#div1{
+    border: 4px solid black;
+    border-radius: 10px;
+    /* text-align: center; */
+    padding: 12px;
+    display: flex;
+   
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    box-sizing: content-box;
+    box-shadow: 1px 1px 4px 9px  #700073;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#div1:hover{
+    transform: scale(1.1); /* Increases size by 10% */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    box-shadow: 1px 1px 4px 9px white ;
+   
+}
+#form #text{
+    padding: 12px;
+    border-radius: 10px;
+    font-size: larger;
+    
+
+}
+#form input{
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+#form label{
+    color: aliceblue;
+    font-size: larger;
+}
+.button-container {
+    display: flex;
+    justify-content:center; /* Centers button horizontally */
+}
+
+button {
+    border-radius: 5px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
